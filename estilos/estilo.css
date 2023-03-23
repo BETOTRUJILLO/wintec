@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #0077c2;
+    box-shadow: 0px 2px 4px rgba(175, 175, 175, 0.1);
+}
+
+.logo img {
+    width: 100%;
+    max-width: 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #1a1a2e;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: calc(100% - 100px); 
+    padding: 20px;
+}
+/* FOOTER */
+footer {
+    background-color: #1a1a2e;
+    color: #fff;
+    padding: 16px 0;
+}
+.contenedor {
+    max-width: 1980px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.filas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.columnas {
+    width: 100%;
+    max-width: 400px;
+}
+.columnas h3 {
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.columnas p {
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.fab {
+    margin-right: 16px;
+}
+.socialIcons a {
+    display: inline-block;
+    margin-right: 16px;
+    color: #fff;
+    font-size: 16px;
+}
+.socialIcons a:hover {
+    color: #0077c2;
+}
+
+
+
+/* MAIN */
+.banner-wintec {
+    height: 300px;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0px;
+    
+    
+}
+.banner-wintec img {
+    max-height: auto;
+    max-width: 100%;
+    border-radius: 40px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: #1a1a2e;
+}
+/* Categorias INDEX  */
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.categoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(25% - 10px); /* Cambiar según el número de categorías */
+    margin-bottom: 20px;
+}
+.categoria img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.categoria h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+/* PUBLICACIONES INDEX */
+.publicaciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+.publicacion {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+.publicacion img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.publicacion .contenido {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.publicacion h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.publicacion p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.publicacion a {
+    display: inline-block;
+    background-color: #0077c2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+h1 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+
+
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    
+    .post {
+    flex: 2;
+    margin-right: 2rem;
+    }
+    
+    .post__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    .post__meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    }
+    
+    .post__meta-date {
+    font-size: 1.2rem;
+    color: #999;
+    }
+    
+    .post__meta-category {
+    font-size: 1.2rem;
+    color: #999;
+    }
+    
+    .post__image {
+    width: 100%;
+    margin-bottom: 1rem;
+    }
+    
+    .post__content {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    }
+    
+    .post__author {
+    display: flex;
+    align-items: center;
+    }
+    
+    .post__author-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    }
+    
+    .post__author-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    }
+    
+    .post__author-bio {
+    font-size: 1rem;
+    }
+    
+    /* Estilos de la Sidebar */
+    
+    .sidebar {
+    flex: 1;
+    }
+    
+    .sidebar__item {
+    margin-bottom: 2rem;
+    }
+    
+    .sidebar__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    }
+    
+    .sidebar__list {
+    list-style: none;
+    }
+    
+    .sidebar__list li {
+    margin-bottom: 0.5rem;
+    }
+    
+    .sidebar__list li a {
+    color: #343a40;
+    text-decoration: none;
+    }
+    
+    .sidebar__list li a:hover {
+    color: #6c757d;
+    }
+
+
+
+
+
+
+
+        .about {
+        background-color: #f5f5f5;
+        padding: 50px 0;
+        }
+        
+        .about .nosotros {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        }
+        
+        .team {
+        padding: 50px 0;
+        }
+        
+        .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .team-member {
+        flex-basis: 300px;
+        margin: 20px;
+        text-align: center;
+        }
+        
+        .team-member img {
+        border-radius: 50%;
+        width: 100px;
+        }
+        
+        .values {
+        background-color: #eee;
+        padding: 50px 0;
+        }
+        
+        .values ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        }
+        
+        .values ul li {
+        margin-bottom: 10px;
+        }
+        
+        .values ul li i {
+        margin-right: 10px;
+        color: #333;
+        }
+        
+        .nosotros {
+        width: 80%;
+        margin: auto;
+        }
+        
+        
+
+
+
+
+
+
+        .contactowin {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .contactowin {
+            padding: 50px 0;
+        }
+        
+        .contactowin h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        
+        .contactowin p {
+            margin-bottom: 30px;
+        }
+        
+        form div {
+            margin-bottom: 20px;
+        }
+        
+        form div label {
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        
+        form div input,form div textarea {
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1.2em;
+            width: 100%;
+        }
+        
+        form div textarea {
+            height: 150px;
+            resize: none;
+        }
+        
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+.cate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.divcat {
+    width: 22%;
+    margin-bottom: 30px;
+}
+
+.divcat a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    position: relative;
+}
+
+.divcat img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.divcat h3 {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width: 1280px) {
+
+.banner-wintec {
+    height: 200px; 
+}
+}
+
+
+@media screen and (max-width: 768px) {
+        
+        
+    header {
+    flex-direction: column;
+    padding: 16px 0;
+    }
+    .logo img {
+    margin-bottom: 16px;
+    }
+    nav ul {
+    flex-direction: column;
+    gap: 16px;
+    }
+    nav ul li {
+    margin: 0 auto;
+    }
+    .columnas {
+    max-width: 100%;
+    margin-bottom: 32px;
+    }
+    
+    .socialIcons {
+        margin-top: 16px;
+    }
+    .banner-wintec {
+    height: 150px;
+    padding: 1px;
+    }
+    .banner-wintec img {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .publicaciones {
+        grid-template-columns: 1fr;
+    }
+    main {
+        
+        flex-direction: column;
+
+    }
+    .categoria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(50% - 10px); /* Cambiar según el número de categorías */
+        margin-bottom: 10px;
+    }
+    .post {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    
+    .sidebar {
+        margin-top: 2rem;
+    }
+
+
+    .nosotros {
+        width: 90%;
+    }
+    .team-member {
+        flex-basis: 45%;
+    }
+    .contactowin {
+        width: 100%;
+        padding: 0 20px;
+    }
+    form div input,
+    form div textarea {
+        font-size: 1em;
+    }
+    .divcat {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+
+
+}
+@media screen and (max-width: 600px){
+    .divcat {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    .banner-wintec {
+        height: 100px;
+        padding: 1px;
+        }
+}
+@media screen and (max-width: 480px){
+    .categoria {
+        width: 100%;
+    }
+    .categorias {
+        justify-content: center;
+    }
+    .divcat {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .banner-wintec {
+        height: 70px;
+        padding: 1px;
+        }
+}
+@media screen and (max-width: 320px){
+    .banner-wintec {
+        height: 50px;
+        padding: 1px;
+        }
+}
+
